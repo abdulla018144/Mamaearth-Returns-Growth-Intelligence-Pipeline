@@ -1,0 +1,8 @@
+**Situation**
+Regional operations and finance teams reviewed Mamaearth's transactional data to establish baseline performance. The raw total revenue across 180 orders stood at ₹99,860.20. Initial analysis pointed to January as the peak revenue month at ₹29,582.10. Return rates were also evaluated across payment methods, showing COD at 44.4%, CARD at 14.7%, and UPI at 18.9%.
+
+**Complication**
+Data hygiene issues distorted these initial metrics. Removing 5 duplicate orders created a revenue delta of ₹2,501.90, bringing the cleaned total revenue down to ₹97,358.30 across 175 de-duplicated orders. Furthermore, January's apparent peak was skewed by two outlier bulk orders with quantities of 25 and 30; once removed, January's actual revenue corrects to ₹11,637.10. Operational risk is heavily concentrated in the COD payment method combined with Tier-2 cities, which suffers an alarming 54.5% return rate.
+
+**Resolution**
+Data validation confirmed the true peak revenue month is actually March (2026-03) at ₹20,318.90. Regional operations and finance must immediately implement stricter order-validation rules to catch duplicates and bulk outliers at checkout. Additionally, mitigation strategies—such as prepaid incentives or address verification—must be deployed for the highest-risk segment of COD orders in Tier-2 cities to curb the 54.5% return rate.
